@@ -1,0 +1,93 @@
+
+
+
+.header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-size: 50px;
+}
+
+#left {
+
+    float: left;
+    color: #ffffff;
+    padding-left: 250px;
+    
+}
+    
+    
+#right {
+    text-align: right;
+    
+  
+}
+
+
+#center {
+
+    font-size: 55px;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+body {
+    background-image: url("../images/greek-vase.png");
+    padding-top: 30px;
+}
+  
+  .container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 960px;
+    color: black;
+
+    min-height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+   
+.footer {
+    background-color: gray;
+    color: gray;
+    border-top: 4px solid #4aaaa5;
+    margin-top: auto;
+}
+
+.main-content {
+    float: left;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-top: 20px;
+    width: 960px;
+    height: 500px;
+    padding-left: 15px;
+    background-color: #ffffff;
+}
+
+#me {
+    color: #4aaaa5;
+    border-bottom-color: grey;
+    border-bottom-width: 2px;
+}
+
+#box {
+
+    border: 1px solid #dddddd;
+    color: #ffffff;
+}
+
+#bbox {
+
+    border: 1px solid #dddddd;
+    font-size: 75px;
+    color: #ffffff;
+}
+#submit {
+
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 5px;
+}
